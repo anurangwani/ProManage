@@ -1,0 +1,60 @@
+{
+  "name": "idurar-erp-crm",
+  "version": "4.0.0",
+  "engines": {
+    "npm": "10.2.4",
+    "node": "20.9.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "14": "^1.0.1",
+    "@ant-design/icons": "^5.3.0",
+    "@ant-design/pro-layout": "^7.17.19",
+    "@reduxjs/toolkit": "^2.2.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "antd": "^5.14.1",
+    "axios": "^1.6.2",
+    "cross-env": "7.0.3",
+    "currency.js": "2.0.4",
+    "dayjs": "^1.11.10",
+    "just-compare": "^2.3.0",
+    "pdfkit": "^0.15.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-gauge-chart": "^0.5.1",
+    "react-liquid-gauge": "^1.2.4",
+    "react-quill": "^0.0.2",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.0",
+    "react-thermometer-component": "^1.0.1",
+    "recharts": "^2.12.7",
+    "redux": "^5.0.1",
+    "reselect": "^5.1.0",
+    "shortid": "^2.2.16",
+    "styled-components": "^6.1.11",
+    "vite": "^5.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "dev": "vite",
+    "build-vite": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "dev:remote": "cross-env VITE_DEV_REMOTE=remote npm run dev"
+  },
+  "devDependencies": {
+    "@craco/craco": "^5.9.0",
+    "@types/react": "^18.2.38",
+    "@types/react-dom": "^18.2.17",
+    "craco-less": "^1.9.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "prettier": "3.1.0"
+  }
+}
